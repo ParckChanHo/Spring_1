@@ -10,6 +10,7 @@ import kr.co.softcampus.beans.JdbcBean;
 
 @Component
 public class JdbcDAO {
+	
 	// 데이터베이스에 접속하여서 쿼리문을 전달할 객체가 필요하다.
 	// JDBC 관리 객체를 주입 받는다.
 	@Autowired

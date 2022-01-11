@@ -10,6 +10,7 @@ import kr.co.softcampus.beans.JdbcBean;
 
 @Component
 public class MapperClass implements RowMapper<JdbcBean> {
+	
 	// mapRow 메소드 Override를 해주어야 한다.
 	public JdbcBean mapRow(ResultSet rs, int rowNum) throws SQLException {
 		// ResultSet rs ==> Select문을 수행한 결과이다.
